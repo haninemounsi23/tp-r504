@@ -11,3 +11,7 @@ jobs:
         run: pip install pytest
       - name: Run tests
         run: pytest TP1/test.py
+      - name: Afficher la branche
+        run: echo "Nom branche:${{ github.ref }}"
+      - name: Afficher OS
+        run: uname -a
