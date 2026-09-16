@@ -7,8 +7,4 @@
 
 Test results:
 
-
-
-Test results:
-
-![Tests unitaires](https://github.com/hanine123/tp-r504/actions/workflows/pytest.yml/badge.svg)
+Test results: [![Tests unitaires](https://github.com/haninemounsi23/tp-r504/actions/workflows/pytest.yml/badge.svg)](https://github.com/haninemounsi23/tp-r504/actions)
