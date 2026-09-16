@@ -4,7 +4,12 @@ def puissance(a, b):
     else:
         res = 1
 
-        for i in range(b):
-            res = res * a
+        if b >= 0:
+            for i in range(b):
+                res = res * a
+        else:
+            for i in range(-b):
+                res = res * a
+            res = 1 / res
 
         return res
