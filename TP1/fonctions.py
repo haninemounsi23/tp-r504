@@ -5,7 +5,11 @@ def puissance(a,b):
 		raise TypeError("Only integers are allowed")
 	else :
 
- 		return a**b
+ 		res = 1
 
+        for i in range(b):
 
+            res = res * a
+        
+		return res
 
