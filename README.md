@@ -1,4 +1,4 @@
-# TP R504 - Tests unitaires et intégration
+# TP R504 - ests unitaires et intégration
 
 
 # TP R504 - Tests unitaires et intégration continue
@@ -8,4 +8,7 @@
 Test results:
 
 
-![Tests unitaires](https://github.com/haninemounsi23/tp-r504/actions/runs/35091663069)
+
+Test results:
+
+![Tests unitaires](https://github.com/hanine123/tp-r504/actions/workflows/pytest.yml/badge.svg)
