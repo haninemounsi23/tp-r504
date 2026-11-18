@@ -1,12 +1,3 @@
-upstream loadbalancer {
-		server nginx1:80;
-		server nginx2:80;
-}
+FROM nginx:latest
 
-
-server {
-	listen 80;
-	location / {
-			proxy_pass http://loadbalancer;
-		}
-}
+COPY default.conf /etc/nginx/conf.d/default.conf
